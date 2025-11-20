@@ -37,4 +37,4 @@ RUN wget https://github.com/MarcJHuber/event-driven-servers/archive/refs/heads/m
 Expose 49
 
 # run tac_plus-ng
-CMD ["/usr/local/sbin/tac_plus-ng", "/usr/local/etc/tac_plus-ng.cfg"]
+CMD ["/usr/local/sbin/tac_plus-ng -f -d 4", "/usr/local/etc/tac_plus-ng.cfg"]
